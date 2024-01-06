@@ -1,0 +1,22 @@
+.menu { 
+    display: flex; 
+    flex-direction: column; 
+    list-style: none; 
+    padding-top: 180px ;
+    
+} 
+  
+.menu-item { 
+    flex: 1; 
+    text-align: center; 
+}
+@media (max-width: 800px) { 
+    .menu { 
+       flex-direction: row; 
+       padding-top: 8%;
+    } 
+    .menu-item { 
+       flex: none; 
+       width: 20%;
+    } 
+} 
